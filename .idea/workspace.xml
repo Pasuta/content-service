@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af8fdf77-e08d-4c7f-84f2-4fd10fd1e0fd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/atlassian-ide-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/content-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/tslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/local.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/block-navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sort-arrow-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/App.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/Server.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/controllers/Category.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/controllers/Product.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/controllers/Status.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/controllers/User.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/controllers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/helpers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/helpers/util.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/index.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/models/Category.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/models/Product.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/models/User.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/models/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/routes/BaseRoute.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/routes/Category.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/routes/Product.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/routes/Status.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/routes/User.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/routes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/src/routes/index.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/util.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/App.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/Server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/Server.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/Category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/Category.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/Product.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/Status.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/Status.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/TransferTime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/TransferTime.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/TransferTimesByHotelCode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/TransferTimesByHotelCode.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/User.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/category/Category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/category/Category.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/product/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/product/Product.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/status/Status.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/status/Status.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/user/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/controllers/user/User.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/helpers/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/helpers/util.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/models/Category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/models/Category.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/models/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/models/Product.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/models/TransferTime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/models/TransferTime.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/models/TransferTimesByHotelCode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/models/TransferTimesByHotelCode.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/models/User.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/1.0/priceTicket/PriceTicket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/1.0/priceTicket/PriceTicket.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/1.0/priceTicket/priceTicketRequestSchema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/1.0/priceTicket/priceTicketRequestSchema.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/BaseRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/BaseRoute.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/Category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/Category.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/Product.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/Status.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/Status.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/TransferTime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/TransferTime.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/TransferTimesByHotelCode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/TransferTimesByHotelCode.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/TransferTimesByHotelCodeSchemaModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/TransferTimesByHotelCodeSchemaModel.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/TransferTimesByHotelCodeSchemaModelRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/TransferTimesByHotelCodeSchemaModelRoute.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/User.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/status/Status.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/routes/status/Status.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/services/papi/IResponse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/services/papi/IResponse.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/services/papi/PapiService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/services/papi/PapiService.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/services/papi/getPackage/PackageRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/services/papi/getPackage/PackageRequest.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/services/papi/getPackage/PackageResponse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/services/papi/getPackage/PackageResponse.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/Status.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/TransferTime.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/TransferTimesByHotelCode.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/util.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/TransferTime.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/TransferTimesByHotelCode.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/BaseRoute.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Status.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/TransferTime.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/TransferTimesByHotelCode.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/mongodb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/WiredTiger" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/WiredTiger.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/WiredTiger.turtle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/WiredTiger.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/WiredTigerLAS.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/_mdb_catalog.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-0--1219180780921113912.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-0--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-0-1469582858732842990.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-0-3936716768781827156.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-0-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-10--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-12--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-12-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-13-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-14--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-14-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-15--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-16--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-17-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-18--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-18-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-19--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-19-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-2--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-2-1469582858732842990.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-2-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-20--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-21--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-24-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-26--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-26-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-28-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-29--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-3-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-30--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-30-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-31--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-32-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-33--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-34--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-34-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-35-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-38-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-39-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-4--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-4-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-40--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-42--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-42-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-5-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-6--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-6-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/collection-8--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-14T13-27-45Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T11-10-09Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T12-21-04Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T12-22-44Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T12-27-33Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T12-33-00Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T12-35-15Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T12-36-45Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T12-38-55Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T12-39-27Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T12-43-13Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T12-45-03Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T12-54-54Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T12-56-42Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-01-32Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-01-42Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-01-50Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-09-41Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-10-12Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-10-48Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-13-17Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-13-49Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-30-27Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-35-21Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-36-09Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-36-56Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-40-54Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-42-45Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-44-04Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-44-59Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-46-09Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-47-03Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-47-39Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-48-28Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T13-56-46Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T14-27-21Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T14-29-00Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T14-30-51Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-18T14-31-22Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/diagnostic.data/metrics.2018-06-21T10-31-57Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-1--1219180780921113912.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-1--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-1-1469582858732842990.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-1-3936716768781827156.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-1-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-10-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-11--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-11-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-13--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-15-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-16-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-17--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-20-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-21-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-22--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-22-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-23--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-23-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-24--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-25--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-25-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-27--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-27-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-28--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-29-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-3--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-3-1469582858732842990.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-31-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-32--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-33-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-35--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-36--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-36-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-37--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-37-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-38--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-39--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-4-1469582858732842990.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-40-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-41--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-41-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-43--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-43-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-5--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-7--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-7-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-8-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-9--3646497699954516438.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/index-9-7598222974643301752.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerLog.0000000026" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerLog.0000000027" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerLog.0000000028" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerLog.0000000029" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerLog.0000000030" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerLog.0000000031" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerLog.0000000032" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerLog.0000000033" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerLog.0000000034" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerLog.0000000035" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerLog.0000000036" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerLog.0000000037" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerLog.0000000038" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerLog.0000000039" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerLog.0000000040" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerPreplog.0000000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/journal/WiredTigerPreplog.0000000002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/mongod.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/sizeStorer.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.mongodb/data/storage.bson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/ServerInstance.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/api/api.product.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/fixtures/allProducts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/fixtures/externalSourceResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/service/controllers/product.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/service/fixtures/allProductsResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/service/fixtures/externalSourceResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/service/fixtures/request.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/service/fixtures/response.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/fixtures/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/fixtures/productsOnlyVegatables.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/helpers/util.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typings.d.ts" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TransferTime.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/TransferTime.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="17" selection-start-column="17" selection-end-column="17" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="local.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/local.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Server.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransferTime.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/TransferTime.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>product</find>
+      <find>redis</find>
+      <find>amq</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>TransferTime</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/local.json" />
+        <option value="$PROJECT_DIR$/config/test.json" />
+        <option value="$PROJECT_DIR$/src/helpers/util.ts" />
+        <option value="$PROJECT_DIR$/src/models/TransferTime.ts" />
+        <option value="$PROJECT_DIR$/src/routes/TransferTimesByHotelCodeSchemaModel.ts" />
+        <option value="$PROJECT_DIR$/src/routes/TransferTimesByHotelCode.ts" />
+        <option value="$PROJECT_DIR$/src/routes/index.ts" />
+        <option value="$PROJECT_DIR$/src/models/TransferTimesByHotelCode.ts" />
+        <option value="$PROJECT_DIR$/src/controllers/TransferTimesByHotelCode.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/services/mongodb.js" />
+        <option value="$PROJECT_DIR$/src/routes/TransferTime.ts" />
+        <option value="$PROJECT_DIR$/src/Server.ts" />
+        <option value="$PROJECT_DIR$/src/controllers/TransferTime.ts" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="content-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="content-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="content-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="content-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="content-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="content-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="content-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="content-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name=".mongodb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="content-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="content-service" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name=".mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.9.4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/node_modules/tslint" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/services" />
+      <recent name="$PROJECT_DIR$/src/routes" />
+      <recent name="$PROJECT_DIR$/src/models" />
+      <recent name="$PROJECT_DIR$/src/controllers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af8fdf77-e08d-4c7f-84f2-4fd10fd1e0fd" name="Default" comment="" />
+      <created>1530184624232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530184624232</updated>
+      <workItem from="1530184626086" duration="4905000" />
+      <workItem from="1530510155341" duration="4339000" />
+      <workItem from="1530526790989" duration="4616000" />
+      <workItem from="1530604236939" duration="48000" />
+      <workItem from="1531225931557" duration="2222000" />
+      <workItem from="1531392893860" duration="420000" />
+      <workItem from="1531405662076" duration="1933000" />
+      <workItem from="1531725958995" duration="240000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18723000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17643468" />
+      <window_info anchor="bottom" id="Atlassian " order="7" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17643468" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="bottom" id="Atlassian " order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="atlassian-ide-plugin-workspace-issues">
+    <option name="view">
+      <JiraViewConfigurationBean>
+        <option name="viewFilterId" value="" />
+      </JiraViewConfigurationBean>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/controllers/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/local.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/local.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="63" selection-start-column="55" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/mongodb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="2" lean-forward="true" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/local.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="63" selection-start-column="55" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/mongodb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="2" lean-forward="true" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="63" selection-start-column="55" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/Category.ts" />
+    <entry file="file://$PROJECT_DIR$/src/models/Category.ts" />
+    <entry file="file://$PROJECT_DIR$/src/routes/Category.ts" />
+    <entry file="file://$PROJECT_DIR$/src/helpers/util.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/TransferTimesByHotelCode.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/TransferTimesByHotelCode.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/TransferTimesByHotelCode.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/mongodb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="2" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="63" selection-start-column="55" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/TransferTime.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/local.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="17" selection-start-column="17" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
